@@ -11,9 +11,9 @@ apiServerExtraArgs:
 networking:
   podSubnet: "10.244.0.0/16"
 apiServerCertSANs:
-- "ubuntu"
-- "ubuntu02"
-- "ubuntu03"
+- "kub01"
+- "kub02"
+- "kub03"
 - "192.168.1.10"
 - "192.168.1.11"
 - "192.168.1.12"
